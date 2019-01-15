@@ -134,12 +134,14 @@
             <maven-resource group="io.reactiverse" artifact="reactive-contexts-propagators-rxjava2"/>
         </module-def>
 
-        <module-def name="com.github.fge.jackson-coreutils">
-            <maven-resource group="com.github.fge" artifact="jackson-coreutils"/>
+        <module-def name="com.github.java-json-tools.jackson-coreutils">
+            <maven-resource group="com.github.java-json-tools" artifact="jackson-coreutils"/>
+            <maven-resource group="com.github.fge" artifact="msg-simple"/>
+            <maven-resource group="com.github.fge" artifact="btf"/>
         </module-def>
 
-        <module-def name="com.github.fge.json-patch">
-            <maven-resource group="com.github.fge" artifact="json-patch"/>
+        <module-def name="com.github.java-json-tools.json-patch">
+            <maven-resource group="com.github.java-json-tools" artifact="json-patch"/>
         </module-def>
 
         <module-def name="org.jboss.resteasy.resteasy-jaxb-provider">
