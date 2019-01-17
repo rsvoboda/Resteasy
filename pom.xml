@@ -3,7 +3,7 @@
     <parent>
         <groupId>org.jboss</groupId>
         <artifactId>jboss-parent</artifactId>
-        <version>26</version>
+        <version>31</version>
         <relativePath/>
     </parent>
 
@@ -18,6 +18,8 @@
     <packaging>pom</packaging>
 
     <properties>
+        <!--<version.compiler.plugin>3.8.0</version.compiler.plugin>-->
+
         <jboss.home/>
         <!-- print logs to file by default -->
         <maven.test.redirectTestOutputToFile>true</maven.test.redirectTestOutputToFile>
