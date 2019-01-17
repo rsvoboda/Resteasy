@@ -18,7 +18,7 @@
     <packaging>pom</packaging>
 
     <properties>
-        <!--<version.compiler.plugin>3.8.0</version.compiler.plugin>-->
+        <version.compiler.plugin>3.8.0-jboss-2</version.compiler.plugin>
 
         <jboss.home/>
         <!-- print logs to file by default -->
